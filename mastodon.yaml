@@ -70,7 +70,7 @@ Resources:
       Parameters:
         AlertingModule: !GetAtt 'Alerting.Outputs.StackName'
         ClassB: 0
-        NumberOfAvailabilityZones: 2
+        NumberOfAvailabilityZones: 3
         S3Endpoint: true
         DynamoDBEndpoint: true
         FlowLog: 'reject-only'
